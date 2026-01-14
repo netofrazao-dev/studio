@@ -1,4 +1,4 @@
-/*
+/*  Autor: (Neto Frazao)
   --------------------------------------------------------------
   SCRIPT PRINCIPAL - LUMEN STUDIO
   Funcionalidades:
