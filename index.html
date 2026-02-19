@@ -1,0 +1,633 @@
+<!--Autor: (Neto Frazao)-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonatan Castro Fotografia  | Fotografia Profissional</title>
+  <meta name="description" content="Estúdio de fotografia profissional especializado em retratos, editoriais, branding e eventos. Atmosfera minimalista, foco absoluto na luz e na sua história." />
+
+  <!-- Fonte elegante e leve (pode ser alterada depois) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <!-- HEADER / NAVEGAÇÃO -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <!-- Logo / Nome do estúdio -->
+      <a href="#hero" class="header__logo">
+        <span id="NomeTitulo">Jonatan Castro</span><span>Fotografia</span>
+      </a>
+
+      <!-- Botão menu mobile -->
+      <button
+        class="header__toggle"
+        type="button"
+        aria-label="Abrir menu principal"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+      </button>
+
+      <!-- Navegação principal -->
+      <nav class="header__nav" id="main-navigation" aria-label="Navegação principal">
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a href="#hero" class="header__menu-link" data-scroll>Início</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#about" class="header__menu-link" data-scroll>Sobre</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#portfolio" class="header__menu-link" data-scroll>Portfólio</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#services" class="header__menu-link" data-scroll>Serviços</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#eventos" class="header__menu-link" data-scroll>Eventos</a>  
+          </li>
+
+          <li class="header__menu-item">
+            <a href="#diferenciais" class="header__menu-link" data-scroll>Diferenciais</a>
+          </li>
+
+          <li class="header__menu-item">
+            <a href="#contact" class="header__menu-link" data-scroll>Contato</a>
+          </li>
+        </ul>
+
+        <!-- Botão de contato (WhatsApp) no header -->
+        <a
+          href="https://wa.me/5591992279801?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+sess%C3%A3o+de+fotos."
+          class="btn btn--primary header__cta"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Estúdio de Fotografia • Breves</p>
+        <h1 class="hero__title" id="hero-title">
+          Fotografia minimalista,<br />
+          com foco na sua história.
+        </h1>
+        <p class="hero__subtitle">
+          Retratos, editoriais, branding e momentos únicos capturados com
+          linguagem visual limpa, luz precisa e direção cuidadosa.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn btn--primary" data-scroll>Ver portfólio</a>
+          <a href="#contact" class="btn btn--ghost">Agendar sessão</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE O ESTÚDIO -->
+    <section class="section section--about" id="about" aria-labelledby="about-title">
+      <div class="container section__inner section__inner--two-columns">
+        <div class="section__content">
+          <h2 class="section__title" id="about-title">Sobre o estúdio</h2>
+          <p class="section__text">
+            Jonatan Castro Fotografia é um estúdio de fotografia contemporânea focado em
+            retratar pessoas, marcas e histórias com elegância, precisão e
+            autenticidade. Acreditamos que menos é mais: cenários limpos,
+            composição equilibrada e luz que valoriza o que realmente importa.
+          </p>
+          <p class="section__text">
+            Nosso espaço foi pensado para proporcionar conforto e liberdade
+            criativa, com estrutura completa para ensaios autorais, editoriais,
+            campanhas e retratos profissionais.
+          </p>
+        </div>
+
+        <aside class="section__aside">
+          <h3 class="section__subtitle">Nossos diferenciais</h3>
+          <ul class="feature-list">
+            <li class="feature-list__item">
+              Direção cuidadosa para quem não está acostumado(a) com câmeras.
+            </li>
+            <li class="feature-list__item">
+              Tratamento fino de imagem com foco em naturalidade.
+            </li>
+            <li class="feature-list__item">
+              Estúdio versátil com luz natural e iluminação controlada.
+            </li>
+            <li class="feature-list__item">
+              Atendimento consultivo para marcas e profissionais.
+            </li>
+            <li class="feature-list__item">
+              Entregas em alta resolução, prontas para impressão e web.
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section class="section section--portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title" id="portfolio-title">Portfólio</h2>
+          <p class="section__text section__text--narrow">
+            Uma seleção de trabalhos que traduzem nossa estética: linhas
+            simples, luz precisa e foco em pessoas reais. Clique nas imagens
+            para visualizar em destaque.
+          </p>
+        </header>
+
+        <!-- Galeria de imagens -->
+        <div class="portfolio__grid">
+          <!-- Cada item do portfólio está preparado para abrir no lightbox -->
+          <article
+            class="portfolio__item"
+            data-full="imagens/retradoeditorial.jpg"
+          >
+            <figure class="portfolio__figure">
+              <img
+                src="imagens/retradoeditorial.jpg"
+                alt="Retrato editorial em fundo neutro com iluminação lateral."
+                class="portfolio__image"
+              />
+              <figcaption class="portfolio__caption">
+                <h3 class="portfolio__title">Retrato Editorial</h3>
+                <p class="portfolio__category">Retratos • Editorial</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article
+            class="portfolio__item"
+            data-full="imagens/campanha.jpg"
+          >
+            <figure class="portfolio__figure">
+              <img
+                src="imagens/campanha.jpg"
+                alt="Campanha de moda minimalista com fundo claro."
+                class="portfolio__image"
+              />
+              <figcaption class="portfolio__caption">
+                <h3 class="portfolio__title">Campanha Minimal</h3>
+                <p class="portfolio__category">Moda • Comercial</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article
+            class="portfolio__item"
+            data-full="imagens/corporativo.jpg"
+          >
+            <figure class="portfolio__figure">
+              <img
+                src="imagens/corporativo.jpg"
+                alt="Retrato corporativo com luz suave e fundo escuro."
+                class="portfolio__image"
+              />
+              <figcaption class="portfolio__caption">
+                <h3 class="portfolio__title">Retrato Corporativo</h3>
+                <p class="portfolio__category">Corporate • Branding</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article
+            class="portfolio__item"
+            data-full="imagens/produto.jpg"
+          >
+            <figure class="portfolio__figure">
+              <img
+                src="imagens/produto.jpg"
+                alt="Fotografia de produto com composição limpa em fundo neutro."
+                class="portfolio__image"
+              />
+              <figcaption class="portfolio__caption">
+                <h3 class="portfolio__title">Produto Clean</h3>
+                <p class="portfolio__category">Still • Produto</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article
+            class="portfolio__item"
+            data-full="imagens/ensaio.jpg"
+          >
+            <figure class="portfolio__figure">
+              <img
+                src="imagens/ensaio.jpg"
+                alt="Casal em ensaio externo ao pôr do sol."
+                class="portfolio__image"
+              />
+              <figcaption class="portfolio__caption">
+                <h3 class="portfolio__title">Ensaio Externo</h3>
+                <p class="portfolio__category">Lifestyle • Casal</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article
+            class="portfolio__item"
+            data-full="imagens/contemporaneo.jpg"
+          >
+            <figure class="portfolio__figure">
+              <img
+                src="imagens/contemporaneo.jpg"
+                alt="Série em preto e branco com forte contraste."
+                class="portfolio__image"
+              />
+              <figcaption class="portfolio__caption">
+                <h3 class="portfolio__title">P&B Contemporâneo</h3>
+                <p class="portfolio__category">Autorais • Série</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section section--services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title" id="services-title">Serviços</h2>
+          <p class="section__text section__text--narrow">
+            Pacotes pensados para atender desde profissionais que buscam novas
+            imagens até marcas que desejam construir coleções completas.
+          </p>
+        </header>
+
+        <div class="services__grid">
+          <!-- Card 1 -->
+          <article class="service-card card">
+            <div class="service-card__header">
+              <span class="service-card__tag">Individual</span>
+              <h3 class="service-card__title">Retrato Profissional</h3>
+            </div>
+            <p class="service-card__text">
+              Ideal para profissionais, artistas e criadores de conteúdo que
+              desejam um retrato forte, atual e versátil para múltiplos canais.
+            </p>
+            <ul class="service-card__list">
+              <li>Direção completa durante o ensaio</li>
+              <li>Até 2 looks e 1 fundo</li>
+              <li>Seleção guiada e tratamento fino</li>
+            </ul>
+            <p class="service-card__price">A partir de R$ XXX,XX</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card card">
+            <div class="service-card__header">
+              <span class="service-card__tag">Marcas</span>
+              <h3 class="service-card__title">Editorial & Campanhas</h3>
+            </div>
+            <p class="service-card__text">
+              Para marcas que desejam construir narrativas visuais consistentes
+              em catálogos, lançamentos e campanhas sazonais.
+            </p>
+            <ul class="service-card__list">
+              <li>Planejamento visual e conceitual</li>
+              <li>Equipe essencial e direção de elenco</li>
+              <li>Banco de imagens completo para web e print</li>
+            </ul>
+            <p class="service-card__price">Sob consulta</p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card card">
+            <div class="service-card__header">
+              <span class="service-card__tag">Estúdio / Produto</span>
+              <h3 class="service-card__title">Still & Catálogo</h3>
+            </div>
+            <p class="service-card__text">
+              Foco em produtos com estética minimalista, ideal para e-commerces,
+              catálogos e lançamentos pontuais.
+            </p>
+            <ul class="service-card__list">
+              <li>Composição clean em fundo neutro</li>
+              <li>Tratamento realista e consistente</li>
+              <li>Arquivos otimizados para plataformas digitais</li>
+            </ul>
+            <p class="service-card__price">A partir de R$ XXX,XX</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTOS -->
+<section class="section section--events" id="eventos">
+  <div class="container">
+    <div class="section__inner">
+      <header class="section__header">
+        <h2 class="section__title">Cobertura de eventos</h2>
+        <p class="section__subtitle">Momentos que merecem registro profissional</p>
+        <p class="section__text section__text--narrow">
+          Atuamos na cobertura fotográfica de eventos sociais, acadêmicos e corporativos,
+          registrando cada detalhe com qualidade, sensibilidade e atenção ao momento.
+        </p>
+      </header>
+
+      <div class="events-grid">
+        <article class="event-card card">
+          <h3 class="event-card__title">Formaturas</h3>
+          <p class="event-card__text">
+            Ensaios individuais e coletivos com becas e capelos, registros da cerimônia,
+            entrega de canudos, homenagens e fotos protocolares.
+          </p>
+          <ul class="event-card__examples">
+            <li>Fotos com beca e capelo</li>
+            <li>Registros da colação de grau</li>
+            <li>Retratos individuais e em grupo</li>
+          </ul>
+        </article>
+
+        <article class="event-card card">
+          <h3 class="event-card__title">Festas e eventos sociais</h3>
+          <p class="event-card__text">
+            Cobertura completa de festas, aniversários, confraternizações e eventos
+            comemorativos, com registros espontâneos e dirigidos.
+          </p>
+          <ul class="event-card__examples">
+            <li>Aniversários e celebrações</li>
+            <li>Eventos familiares</li>
+            <li>Momentos espontâneos e detalhes</li>
+          </ul>
+        </article>
+
+        <article class="event-card card ">
+          <h3 class="event-card__title">Eventos corporativos</h3>
+          <p class="event-card__text">
+            Registro profissional para empresas, instituições e organizações,
+            valorizando a imagem do evento e da marca.
+          </p>
+          <ul class="event-card__examples">
+            <li>Palestras e congressos</li>
+            <li>Eventos institucionais</li>
+            <li>Registros para divulgação</li>
+          </ul>
+        </article>
+      </div>
+<div class="events-portfolio">
+  <header class="events-portfolio__header">
+    <h3 class="events-portfolio__title">Eventos registrados</h3>
+    <p class="events-portfolio__text">
+      Alguns exemplos de formaturas, festas e eventos fotografados pelo estúdio.
+    </p>
+  </header>
+
+  <div class="portfolio__grid">
+    <figure class="portfolio__item card">
+      <div class="portfolio__figure">
+        <img
+          src="imagens/formatura.jpg"
+          alt="Formatura com beca e capelo"
+          class="portfolio__image"
+        />
+      </div>
+      <figcaption class="portfolio__caption">
+        <h4 class="portfolio__title">Formatura</h4>
+        <p class="portfolio__category">Beca & Capelo</p>
+      </figcaption>
+    </figure>
+
+    <figure class="portfolio__item card">
+      <div class="portfolio__figure">
+        <img
+          src="imagens/festa.jpg"
+          alt="Cobertura fotográfica de festa"
+          class="portfolio__image"
+        />
+      </div>
+      <figcaption class="portfolio__caption">
+        <h4 class="portfolio__title">Evento social</h4>
+        <p class="portfolio__category">Festa</p>
+      </figcaption>
+    </figure>
+
+    <figure class="portfolio__item card">
+      <div class="portfolio__figure">
+        <img
+          src="imagens/corpfesta.jpg"
+          alt="Evento corporativo"
+          class="portfolio__image"
+        />
+      </div>
+      <figcaption class="portfolio__caption">
+        <h4 class="portfolio__title">Evento corporativo</h4>
+        <p class="portfolio__category">Institucional</p>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+      <!-- DIFERENCIAIS -->
+<section class="section section--highlights" id="diferenciais">
+  <div class="container">
+    <div class="section__inner">
+      <header class="section__header">
+        <h2 class="section__title">Diferenciais</h2>
+        <p class="section__subtitle">O que nos destaca</p>
+      </header>
+
+      <ul class="highlight-list">
+        <li class="highlight-item">Atendimento personalizado do início ao fim</li>
+        <li class="highlight-item">Equipamentos profissionais e iluminação controlada</li>
+        <li class="highlight-item">Edição cuidadosa com identidade visual consistente</li>
+        <li class="highlight-item">Entrega ágil e organizada</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        
+    <!-- CONTATO -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="container section__inner section__inner--two-columns">
+        <div class="section__content">
+          <h2 class="section__title" id="contact-title">Contato</h2>
+          <p class="section__text">
+            Envie uma mensagem com o tipo de sessão que você procura, datas
+            desejadas e qualquer referência que queira compartilhar. Retornamos
+            com todos os detalhes para o seu projeto.
+          </p>
+
+          <div class="contact__info">
+            <div class="contact__block card">
+              <h3 class="contact__label">E-mail</h3>
+              <a href="mailto:contato@lumenstudio.com" class="contact__value">
+                jonatanbreves@hotmail.com
+              </a>
+            </div>
+
+            <div class="contact__block card">
+              <h3 class="contact__label">Telefone / WhatsApp</h3>
+              <a
+                href="https://wa.me/5591992279801?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+sess%C3%A3o+de+fotos."
+                class="contact__value"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                (91) 9 9227-9801
+              </a>
+            </div>
+
+            <div class="contact__block card">
+              <h3 class="contact__label">Endereço</h3>
+              <p class="contact__value">
+                Rua Justo Chermont, 1626 &bull; Bairro Aeroporto<br />
+                Breves &ndash; PA
+              </p>
+            </div>
+
+            <div class="contact__block card">
+  <h3 class="contact__label">Redes sociais</h3>
+  <ul class="social-links">
+    <li>
+      <a href="https://www.instagram.com/jonatancastro_fotografia/" class="social-links__item" aria-label="Instagram">
+        Instagram
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/jonatancastrofotografia/" class="social-links__item" aria-label="Facebook">
+        Facebook
+      </a>
+    </li>
+  </ul>
+</div>
+
+          </div>
+        </div>
+
+        <!-- Formulário simples (placeholder, sem back-end) -->
+        <aside class="section__aside">
+          <form class="contact__form card" id="contact-form">
+            <h3 class="section__subtitle">Envie uma mensagem</h3>
+
+            <div class="form-group">
+              <label for="name" class="form-label">Nome completo</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="Como podemos te chamar?"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="seu@email.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="service" class="form-label">Tipo de sessão</label>
+              <select id="service" name="service" class="form-input">
+                <option value="">Selecione uma opção</option>
+                <option value="retrato">Retrato profissional</option>
+                <option value="editorial">Editorial / Campanha</option>
+                <option value="produto">Still / Produto</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-input form-input--textarea"
+                placeholder="Conte um pouco sobre o que você está buscando..."
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block">
+              Enviar mensagem
+            </button>
+          </form>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX / MODAL PARA PORTFÓLIO -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox__inner">
+      <button
+        type="button"
+        class="lightbox__close"
+        aria-label="Fechar imagem em destaque"
+      >
+        ×
+      </button>
+      <figure class="lightbox__figure">
+        <img
+          src=""
+          alt=""
+          class="lightbox__image"
+        />
+        <figcaption class="lightbox__caption"></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- BOTÃO FLUTUANTE DE WHATSAPP -->
+  <a
+    href="https://wa.me/5591992279801?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+sess%C3%A3o+de+fotos."
+    class="whatsapp-floating"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Conversar no WhatsApp"
+  >
+    <span class="whatsapp-floating__icon"><img src="imagens/zap.png" id="logozap" alt="logo WhatsApp"></span>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        &copy; <span id="current-year"></span> Jonatan Castro Fotografia . Todos os direitos reservados.
+      </p>
+      <ul class="footer__social">
+        <li><a href="https://www.instagram.com/jonatancastro_fotografia/" class="footer__link">Instagram</a></li>
+        <li><a href="https://www.facebook.com/jonatancastrofotografia/" class="footer__link">Facebook</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JavaScript principal -->
+  <script src="script/script.js"></script>
+</body>
+</html>
