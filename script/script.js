@@ -267,7 +267,7 @@ Tenho interesse em serviços fotográficos.
 ${mensagem}
     `.trim();
 
-    const numeroWhatsApp = "5591992957604"; // ← TROQUE PELO NÚMERO REAL
+    const numeroWhatsApp = "5591992279801"; // ← TROQUE PELO NÚMERO REAL
     const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(textoWhatsApp)}`;
 
     window.open(url, "_blank");
