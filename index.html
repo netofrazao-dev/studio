@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <link rel="preload" fetchpriority="high" as="image" href="imagens/hero.webp" type="image/webp">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jonatan Castro Fotografia  | Fotografia Profissional</title>
@@ -81,27 +82,32 @@
   </header>
 
   <main>
-    <!-- HERO -->
-    <section class="hero" id="hero" aria-labelledby="hero-title">
-      <div class="hero__overlay" aria-hidden="true"></div>
-      <div class="container hero__content">
-        <p class="hero__eyebrow">Estúdio de Fotografia • Breves</p>
-        <h1 class="hero__title" id="hero-title">
-          Fotografia profissional,<br />
-          com foco na sua história.
-        </h1>
-        <p class="hero__subtitle">
-          Retratos, editoriais, branding e momentos únicos capturados com
-          linguagem visual limpa, luz precisa e direção cuidadosa.
-        </p>
+<section class="hero" id="hero" aria-labelledby="hero-title">
+  <img src="imagens/hero.webp" 
+       alt="Fundo do estúdio de fotografia" 
+       class="hero__bg-image" 
+       fetchpriority="high" 
+       loading="eager">
 
-        <div class="hero__actions">
-          <a href="#portfolio" class="btn btn--primary" data-scroll>Ver portfólio</a>
-          <a href="#contact" class="btn btn--ghost">Agendar sessão</a>
+  <div class="hero__overlay" aria-hidden="true"></div>
+  
+  <div class="container hero__content">
+    <p class="hero__eyebrow">Estúdio de Fotografia • Breves</p>
+    <h1 class="hero__title" id="hero-title">
+      Fotografia profissional,<br />
+      com foco na sua história.
+    </h1>
+    <p class="hero__subtitle">
+      Retratos, editoriais, branding e momentos únicos capturados com
+      linguagem visual limpa, luz precisa e direção cuidadosa.
+    </p>
 
-        </div>
-      </div>
-    </section>
+    <div class="hero__actions">
+      <a href="#portfolio" class="btn btn--primary" data-scroll>Ver portfólio</a>
+      <a href="#contact" class="btn btn--ghost">Agendar sessão</a>
+    </div>
+  </div>
+</section>
 
     <!-- SOBRE O ESTÚDIO -->
     <section class="section section--about" id="about" aria-labelledby="about-title">
